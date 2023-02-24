@@ -2,7 +2,11 @@ macro_alfredpaste: macro_alfredpaste{
 compatible = "zmk,behavior-macro";
 label = "macro_alfredpaste";
 #binding-cells = <0>;
-bindings = <&kt V>;
+bindings
+    = <&macro_press &kp LCTRL LSHIFT>
+    , <&macro_tap &kp V>
+    , <&macro_release &kp LCTRL LSHIFT>
+    ;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
