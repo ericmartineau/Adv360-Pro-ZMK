@@ -1,3 +1,15 @@
+macro_alfred_p: macro_alfred_p{
+compatible = "zmk,behavior-macro";
+label = "macro_alfred_p";
+#binding-cells = <0>;
+bindings = <&kt LSHIFT>, <&kt LEFT_GUI>, <&kp V>, <&kt LSHIFT>, <&kt LGUI>;
+};
+macro_paste: macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_paste";
+#binding-cells = <0>;
+bindings = <&kt LEFT_GUI>, <&kp V>, <&kt LEFT_GUI>;
+};
 macro_cp: macro_cp{
 compatible = "zmk,behavior-macro";
 label = "macro_cp";
