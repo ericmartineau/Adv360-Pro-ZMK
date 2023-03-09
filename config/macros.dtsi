@@ -4,6 +4,24 @@ label = "macro_ctrl_space";
 #binding-cells = <0>;
 bindings = <&kt LCTRL>, <&kp SPACE>, <&kt LCTRL>;
 };
+macro_ijb: macro_ijb{
+compatible = "zmk,behavior-macro";
+label = "macro_ijb";
+#binding-cells = <0>;
+bindings = <&kt LGUI>, <&kp LEFT_BRACE>, <&kt LGUI>;
+};
+macro_ijf: macro_ijf{
+compatible = "zmk,behavior-macro";
+label = "macro_ijf";
+#binding-cells = <0>;
+bindings = <&kt LGUI>, <&kp RIGHT_BRACE>, <&kt LGUI>;
+};
+macro_ijad: macro_ijad{
+compatible = "zmk,behavior-macro";
+label = "macro_ijad";
+#binding-cells = <0>;
+bindings = <&kt LGUI>, <&kp BACKSPACE>, <&kt LGUI>;
+};
 macro_ctrl_p: macro_ctrl_p{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_p";
