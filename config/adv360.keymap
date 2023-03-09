@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3     &kp F4        &kp F5  &kp F6                       &tog 1                                                                 &mo 3  &kp F7  &kp F8  &kp F9         &kp F10         &kp F11          &kp F12
- &trans  &trans  &trans     &trans        &trans  &trans                        &none                                                                 &none  &trans  &trans  &trans          &trans          &trans           &trans
- &trans  &trans  &trans     &trans        &trans  &trans              &macro_alfred_p      &trans  &trans                  &trans  &trans             &none  &trans  &trans  &trans          &trans          &trans           &trans
- &tog 4  &trans  &trans  &macro_cp  &macro_paste  &trans                        &none       &none  &trans   &none   &none  &trans   &none             &none  &trans  &trans  &trans          &trans    &kp UP_ARROW           &trans
- &trans  &trans  &trans     &reset        &reset                    &macro_ctrl_space  &kp DELETE  &trans                  &trans  &trans  &macro_alt_enter          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+ &kp F1  &kp F2  &kp F3     &kp F4        &kp F5  &kp F6                       &tog 1                                                                    &mo 3  &kp F7  &kp F8  &kp F9         &kp F10         &kp F11          &kp F12
+ &trans  &trans  &trans     &trans        &trans  &trans                        &none                                                                    &none  &trans  &trans  &trans          &trans          &trans           &trans
+ &trans  &trans  &trans     &trans        &trans  &trans              &macro_alfred_p      &trans     &trans                  &trans  &trans             &none  &trans  &trans  &trans          &trans          &trans           &trans
+ &tog 4  &trans  &trans  &macro_cp  &macro_paste  &trans                        &none       &none     &trans   &none   &none  &trans   &none             &none  &trans  &trans  &trans          &trans    &kp UP_ARROW           &trans
+ &trans  &trans  &trans     &reset        &reset                    &macro_ctrl_space  &kp DELETE  &kp ENTER                  &trans  &trans  &macro_alt_enter          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
