@@ -63,7 +63,7 @@
  &trans  &trans  &trans     &trans        &trans  &trans                        &none                                                                    &none  &trans  &trans  &trans          &trans          &trans           &trans
  &trans  &trans  &trans     &trans        &trans  &trans              &macro_alfred_p         &trans  &trans                  &trans  &trans             &none  &trans  &trans  &trans          &trans          &trans           &trans
  &trans  &trans  &trans  &macro_cp  &macro_paste  &trans                        &none          &none  &trans   &none   &none  &trans   &none             &none  &trans  &trans  &trans          &trans    &kp UP_ARROW           &trans
- &trans  &trans  &trans     &trans        &trans                    &macro_ctrl_space  &macro_ctrl_p  &trans                  &trans  &trans  &macro_alt_enter          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+ &trans  &trans  &trans     &reset        &reset                    &macro_ctrl_space  &macro_ctrl_p  &trans                  &trans  &trans  &macro_alt_enter          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
