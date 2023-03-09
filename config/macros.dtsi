@@ -22,6 +22,12 @@ label = "macro_ijad";
 #binding-cells = <0>;
 bindings = <&kt LGUI>, <&kp BACKSPACE>, <&kt LGUI>;
 };
+macro_ijss: macro_ijss{
+compatible = "zmk,behavior-macro";
+label = "macro_ijss";
+#binding-cells = <0>;
+bindings = <&kp LSHIFT>, <&kp LSHIFT>;
+};
 macro_ctrl_p: macro_ctrl_p{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_p";
