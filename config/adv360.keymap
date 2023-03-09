@@ -43,7 +43,7 @@
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T             &macro_quotes                                                                 &macro_brackets   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G            &macro_dquotes      &kp LCTRL  &kp LGUI                   &kp LALT  &kp RCTRL    &macro_braces   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                     &none          &none  &kp HOME   &none   &none  &kp PG_UP      &none            &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                      &kp LEFT_GUI  &kp BACKSPACE   &kp END                  &kp PG_DN  &kp ENTER        &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                      &kp LEFT_GUI  &kp BACKSPACE   &kp END                  &kp PG_DN  &kp ENTER        &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 4
             >;
         };
 
@@ -59,31 +59,31 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3      &kp F4        &kp F5           &kp F6                       &tog 1                                                                    &mo 3  &kp F7  &kp F8  &kp F9         &kp F10         &kp F11          &kp F12
- &trans  &trans  &trans      &trans        &trans           &trans                        &none                                                                    &none  &trans  &trans  &trans          &trans          &trans           &trans
- &trans  &trans  &trans      &trans        &trans           &trans              &macro_alfred_p      &trans     &trans                  &trans  &trans             &none  &trans  &trans  &trans          &trans          &trans           &trans
-  &mo 4  &trans  &trans   &macro_cp  &macro_paste  &macro_alfred_p                        &none       &none     &trans   &none   &none  &trans   &none             &none  &trans  &trans  &trans          &trans    &kp UP_ARROW           &trans
- &trans  &trans  &trans  &macro_ijb    &macro_ijb                             &macro_ctrl_space  &kp DELETE  &kp ENTER                  &trans  &trans  &macro_alt_enter          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+ &kp F1  &kp F2  &kp F3      &kp F4        &kp F5           &kp F6                       &tog 1                                                                              &mo 3  &kp F7  &kp F8  &kp F9         &kp F10         &kp F11          &kp F12
+ &trans  &trans  &trans      &trans        &trans           &trans                        &none                                                                              &none  &trans  &trans  &trans          &trans          &trans           &trans
+ &trans  &trans  &trans      &trans        &trans           &trans              &macro_alfred_p      &trans     &trans                  &trans            &trans             &none  &trans  &trans  &trans          &trans          &trans           &trans
+  &mo 4  &trans  &trans   &macro_cp  &macro_paste  &macro_alfred_p                        &none       &none  &kp SPACE   &none   &none  &trans             &none             &none  &trans  &trans  &trans          &trans    &kp UP_ARROW           &trans
+ &trans  &trans  &trans  &macro_ijb    &macro_ijb                             &macro_ctrl_space  &kp DELETE  &kp ENTER                  &trans  &macro_alt_enter  &macro_alt_enter          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                              &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
-  &none         &none         &none         &none         &none         &none                       &bootloader                                                                         &bootloader         &none         &none         &none         &none         &none   &none
-  &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
-  &none         &none         &none         &none         &none         &none                             &none       &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &none
-  &none         &none         &none    &bl BL_INC    &bl BL_DEC                                 &rgb_ug RGB_TOG  &bl BL_TOG   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &none         &none   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                               &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
+  &none         &none         &none         &none         &none         &none                       &bootloader                                                                          &bootloader         &none         &none         &none         &none         &none   &none
+  &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR   &none                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
+  &none         &none         &none         &none         &none         &none                             &none        &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &none
+  &none         &none         &none    &bl BL_INC    &bl BL_DEC                                     &macro_ijss  &macro_ijad   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &none         &none   &none
             >;
         };
 
-        layer_Layer__4 {
+        layer_ij {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &reset   &none  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans       &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                 &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &macro_ijss  &macro_ijad  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
