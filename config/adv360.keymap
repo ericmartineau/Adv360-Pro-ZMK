@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3      &kp F4        &kp F5           &kp F6                       &tog 1                                                                              &mo 3  &kp F7  &kp F8  &kp F9         &kp F10         &kp F11          &kp F12
- &trans  &trans  &trans      &trans        &trans           &trans                        &none                                                                              &none  &trans  &trans  &trans          &trans          &trans           &trans
- &trans  &trans  &trans      &trans        &trans           &trans              &macro_alfred_p      &trans     &trans                  &trans            &trans             &none  &trans  &trans  &trans          &trans          &trans           &trans
-  &mo 4  &trans  &trans   &macro_cp  &macro_paste  &macro_alfred_p                        &none       &none  &kp SPACE   &none   &none  &trans             &none             &none  &trans  &trans  &trans          &trans    &kp UP_ARROW           &trans
- &trans  &trans  &trans  &macro_ijb    &macro_ijb                             &macro_ctrl_space  &kp DELETE  &kp ENTER                  &trans  &macro_alt_enter  &macro_alt_enter          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+ &kp F1  &kp F2  &kp F3      &kp F4        &kp F5           &kp F6                       &tog 1                                                                             &mo 3  &kp F7  &kp F8             &kp F9         &kp F10         &kp F11          &kp F12
+ &trans  &trans  &trans      &trans        &trans           &trans                        &none                                                                             &none  &trans  &trans             &trans          &trans          &trans           &trans
+ &trans  &trans  &trans      &trans        &trans           &trans              &macro_alfred_p      &trans     &trans                  &trans            &trans            &none  &trans  &trans             &trans          &trans          &trans           &trans
+  &mo 4  &trans  &trans   &macro_cp  &macro_paste  &macro_alfred_p                        &none       &none  &kp SPACE   &none   &none  &trans             &none            &none  &trans  &trans  &macro_next_array          &trans    &kp UP_ARROW           &trans
+ &trans  &trans  &trans  &macro_ijb    &macro_ijb                             &macro_ctrl_space  &kp DELETE  &kp ENTER                  &trans  &macro_alt_enter  &macro_semi_end          &trans             &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 

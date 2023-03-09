@@ -1,3 +1,15 @@
+macro_semi_end: macro_semi_end{
+compatible = "zmk,behavior-macro";
+label = "macro_semi_end";
+#binding-cells = <0>;
+bindings = <&kp END>, <&kp SEMICOLON>, <&kp ENTER>;
+};
+macro_next_array: macro_next_array{
+compatible = "zmk,behavior-macro";
+label = "macro_next_array";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ARROW>, <&kp COMMA>;
+};
 macro_ctrl_space: macro_ctrl_space{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_space";
