@@ -4,6 +4,18 @@ label = "macro_ctrl_space";
 #binding-cells = <0>;
 bindings = <&kt LCTRL>, <&kp SPACE>, <&kt LCTRL>;
 };
+macro_ctrl_p: macro_ctrl_p{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_p";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp P>, <&kt LCTRL>;
+};
+macro_alt_enter: macro_alt_enter{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_enter";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp ENTER>, <&kt LALT>;
+};
 macro_alfred_p: macro_alfred_p{
 compatible = "zmk,behavior-macro";
 label = "macro_alfred_p";
