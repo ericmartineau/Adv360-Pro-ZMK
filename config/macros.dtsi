@@ -1,8 +1,20 @@
+macro_ij_collapse: macro_ij_collapse{
+compatible = "zmk,behavior-macro";
+label = "macro_ij_collapse";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp DOWN_ARROW>, <&kt LALT>;
+};
+macro_ij_expand: macro_ij_expand{
+compatible = "zmk,behavior-macro";
+label = "macro_ij_expand";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp UP_ARROW>, <&kt LALT>;
+};
 macro_ctrl_e: macro_ctrl_e{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_e";
 #binding-cells = <0>;
-bindings = ;
+bindings = <&kt LCTRL>, <&kp E>, <&kt LCTRL>;
 };
 macro_term_x: macro_term_x{
 compatible = "zmk,behavior-macro";
