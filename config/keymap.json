@@ -35,11 +35,11 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                            "&none",       "&none",  "&none",  "&none",  "&none",      "&none",      "&none",                  "&none",        "&none",        "&none",        "&none",        "&none",        "&none",  "&none",
         "&none",        "&none",        "&none",   "&bl BL_INC",   "&bl BL_DEC",                                      "&macro_ijss", "&macro_ijad",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",                   "&bl BL_INC",   "&bl BL_DEC",        "&none",        "&none",  "&none"
     ], [
-       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",                "&trans",                                                                  "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",                "&trans",                                                                  "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&macro_term_x", "&trans", "&trans", "&trans", "&trans",                "&trans",      "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",                "&trans",      "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",        "&trans", "&trans", "&trans", "&trans",                     "&macro_ijss", "&macro_ijad", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",                "&trans",                                                                             "&trans", "&trans", "&trans", "&trans", "&trans",          "&trans", "&trans",
+       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",                "&trans",                                                                             "&trans", "&trans", "&trans", "&trans", "&trans",          "&trans", "&trans",
+       "&trans", "&macro_term_x", "&trans", "&trans", "&trans", "&trans",                "&trans",      "&trans",            "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&macro_semi_end", "&trans",
+       "&trans",        "&trans", "&trans", "&trans", "&trans", "&trans",                "&trans",      "&trans",            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",          "&trans", "&trans",
+       "&trans",        "&trans", "&trans", "&trans", "&trans",                     "&macro_ijss", "&macro_ijad", "&macro_delete_end",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",          "&trans", "&trans"
     ]
   ]
 }
