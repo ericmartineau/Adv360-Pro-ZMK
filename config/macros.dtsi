@@ -16,35 +16,17 @@ label = "macro_ij_expand";
 #binding-cells = <0>;
 bindings = <&kt LALT>, <&kp UP_ARROW>, <&kt LALT>;
 };
-macro_ctrl_e: macro_ctrl_e{
-compatible = "zmk,behavior-macro";
-label = "macro_ctrl_e";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp E>, <&kt LCTRL>;
-};
 macro_term_x: macro_term_x{
 compatible = "zmk,behavior-macro";
 label = "macro_term_x";
 #binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp A>, <&kp K>, <&kt LCTRL>;
-};
-macro_ctrl_c: macro_ctrl_c{
-compatible = "zmk,behavior-macro";
-label = "macro_ctrl_c";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp C>, <&kt LCTRL>;
+bindings = <&kp LC(A)>, <&kp LC(K)>;
 };
 macro_ctrl_r: macro_ctrl_r{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_r";
 #binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp R>, <&kt LCTRL>;
-};
-macro_ctrl_p: macro_ctrl_p{
-compatible = "zmk,behavior-macro";
-label = "macro_ctrl_p";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp P>, <&kt LCTRL>;
+bindings = <&kp LC(R)>;
 };
 macro_semi_end: macro_semi_end{
 compatible = "zmk,behavior-macro";
@@ -58,23 +40,17 @@ label = "macro_next_array";
 #binding-cells = <0>;
 bindings = <&kp RIGHT_ARROW>, <&kp COMMA>;
 };
-macro_ctrl_space: macro_ctrl_space{
-compatible = "zmk,behavior-macro";
-label = "macro_ctrl_space";
-#binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kp SPACE>, <&kt LCTRL>;
-};
 macro_ijb: macro_ijb{
 compatible = "zmk,behavior-macro";
 label = "macro_ijb";
 #binding-cells = <0>;
-bindings = <&kt LGUI>, <&kp LEFT_BRACKET>, <&kt LGUI>;
+bindings = <&kt LG(LEFT_BRACKET)>;
 };
 macro_ijf: macro_ijf{
 compatible = "zmk,behavior-macro";
 label = "macro_ijf";
 #binding-cells = <0>;
-bindings = <&kt LGUI>, <&kp RIGHT_BRACKET>, <&kt LGUI>;
+bindings = <&kp LC(RIGHT_BRACKET)>;
 };
 macro_ijad: macro_ijad{
 compatible = "zmk,behavior-macro";
