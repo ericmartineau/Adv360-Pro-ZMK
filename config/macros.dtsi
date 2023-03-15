@@ -56,7 +56,7 @@ macro_ijf: macro_ijf{
 compatible = "zmk,behavior-macro";
 label = "macro_ijf";
 #binding-cells = <0>;
-bindings = <&kp LC(RIGHT_BRACKET)>;
+bindings = <&kp LG(RIGHT_BRACKET)>;
 };
 macro_ijad: macro_ijad{
 compatible = "zmk,behavior-macro";
