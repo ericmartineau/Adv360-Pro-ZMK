@@ -61,7 +61,7 @@
             bindings = <
  &kp F1         &kp F2  &kp F3      &kp F4        &kp F5           &kp F6                     &tog 1                                                                           &mo 3  &kp F7              &kp F8             &kp F9         &kp F10          &kp F11          &kp F12
  &trans         &trans  &trans   &kp LC(E)     &kp LC(R)           &trans                      &none                                                                           &none  &trans              &trans             &trans   &kp LC(LA(O))    &macro_ctrl_p           &trans
- &trans  &macro_term_x  &trans   &kp LC(D)        &trans           &trans            &macro_alfred_p      &trans  &kp LG(O)                  &trans            &trans          &none  &trans       &kp LS(LC(J))          &kp LC(K)   &kp LG(LA(L))  &macro_semi_end           &trans
+ &trans  &macro_term_x  &trans   &kp LC(D)        &trans        &kp LC(G)            &macro_alfred_p      &trans  &kp LG(O)                  &trans            &trans          &none  &trans       &kp LS(LC(J))          &kp LC(K)   &kp LG(LA(L))  &macro_semi_end           &trans
   &mo 4         &trans  &trans   &kp LC(C)  &macro_paste  &macro_alfred_p                      &none       &none  &kp SPACE   &none   &none  &trans             &none          &none  &trans              &trans  &macro_next_array          &trans     &kp UP_ARROW           &trans
  &trans         &trans  &trans  &macro_ijb    &macro_ijf                               &kp LC(SPACE)  &kp DELETE  &kp ENTER                  &trans  &macro_alt_enter  &kp LC(SPACE)          &macro_ij_collapse   &macro_ij_expand  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
