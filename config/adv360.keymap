@@ -79,11 +79,11 @@
 
         layer_ij {
             bindings = <
- &trans         &trans  &trans  &trans         &trans         &trans                 &trans                                                                             &trans  &trans      &trans  &trans  &kp LG(F9)              &trans      &trans
- &trans         &trans  &trans  &trans         &trans  &kp LG(LA(T))                 &trans                                                                             &trans  &trans      &trans  &trans      &trans              &trans      &trans
- &trans  &macro_term_x  &trans  &trans         &trans         &trans                 &trans       &trans      &kp LG(LS(O))                  &trans  &trans             &trans  &trans      &trans  &trans      &trans     &macro_semi_end      &trans
- &trans         &trans  &trans  &trans  &kp LG(LA(V))         &trans                 &trans       &trans             &trans  &trans  &trans  &trans  &trans             &trans  &trans  &kp LS(F6)  &trans      &trans    &macro_ij_expand      &trans
- &trans         &trans  &trans  &trans         &trans                           &macro_ijss  &macro_ijad  &macro_delete_end                  &trans  &trans  &kp LC(LS(SPACE))              &trans  &trans  &macro_ijb  &macro_ij_collapse  &macro_ijf
+ &trans         &trans  &trans  &trans         &trans         &trans                 &trans                                                                             &trans  &kp LS(F6)  &kp LA(F7)  &trans  &kp LG(F9)              &trans      &trans
+ &trans         &trans  &trans  &trans         &trans  &kp LG(LA(T))                 &trans                                                                             &trans      &trans      &trans  &trans      &trans              &trans      &trans
+ &trans  &macro_term_x  &trans  &trans         &trans         &trans                 &trans       &trans      &kp LG(LS(O))                  &trans  &trans             &trans      &trans      &trans  &trans      &trans     &macro_semi_end      &trans
+ &trans         &trans  &trans  &trans  &kp LG(LA(V))         &trans                 &trans       &trans             &trans  &trans  &trans  &trans  &trans             &trans      &trans  &kp LS(F6)  &trans      &trans    &macro_ij_expand      &trans
+ &trans         &trans  &trans  &trans         &trans                           &macro_ijss  &macro_ijad  &macro_delete_end                  &trans  &trans  &kp LC(LS(SPACE))                  &trans  &trans  &macro_ijb  &macro_ij_collapse  &macro_ijf
             >;
         };
 
