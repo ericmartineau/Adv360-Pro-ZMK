@@ -43,7 +43,7 @@
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T             &macro_quotes                                                                 &macro_brackets   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G            &macro_dquotes      &kp LCTRL  &kp LGUI                   &kp LALT  &kp RCTRL    &macro_braces   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                     &none          &none  &kp HOME   &none   &none  &kp PG_UP      &none            &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE     &tog 5  &kp LEFT  &kp RIGHT                      &kp LEFT_GUI  &kp BACKSPACE   &kp END                  &kp PG_DN  &kp ENTER        &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 4
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                      &kp LEFT_GUI  &kp BACKSPACE   &kp END                  &kp PG_DN  &kp ENTER        &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 4
             >;
         };
 
@@ -69,7 +69,7 @@
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                               &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &tog 5                                                                               &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
   &none         &none         &none         &none         &none         &none                       &bootloader                                                                          &bootloader         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR   &none                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                             &none        &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &none
@@ -93,7 +93,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                 &trans     &kp LALT    &kp F5                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                 &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &tog 5  &trans  &trans                      &kp LCTRL    &kp SPACE  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                      &kp LCTRL    &kp SPACE  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
