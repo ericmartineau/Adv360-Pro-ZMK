@@ -93,7 +93,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                 &trans     &kp LALT    &kp F5                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                 &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                      &kp LCTRL    &kp SPACE  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &trans  &trans  &trans  &trans                      &kp SPACE       &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
